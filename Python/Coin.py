@@ -1,4 +1,4 @@
-# coin problem 
+# coin problem to find the minimum number of coins for a given amount 
 
 def coin_change(coins, amount):
   #sort the coins
@@ -17,7 +17,7 @@ def coin_change(coins, amount):
   print(f"Coins used: {coins_used}")
 
 
-coins = [1,5,10,15]
+coins = [1,2,5]
 amount = 14
 
 coin_change(coins, amount)
