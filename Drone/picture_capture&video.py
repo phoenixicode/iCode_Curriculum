@@ -1,18 +1,18 @@
 from djitellopy import tello
 import cv2
 import time
-#
-# t=tello.Tello()
-# t.connect()
-#
-# t.streamon()
-# frames=t.get_frame_read()
-#
-# t.takeoff()
-# picname="firstpic"+time.ctime()+".png"
-# cv2.imwrite(picname, frames.frame)
-#
-# t.land()
+
+t=tello.Tello()
+t.connect()
+
+t.streamon()
+frames=t.get_frame_read()
+
+t.takeoff()
+picname="firstpic"+time.ctime()+".png"
+cv2.imwrite(picname, frames.frame)
+
+t.land()
 
 
 import time, cv2
